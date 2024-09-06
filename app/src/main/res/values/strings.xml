@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tebak Gambar</string>
+
+    <string-array name="data_gambar">
+        <item>https://png.pngtree.com/png-clipart/20230529/original/pngtree-large-elephant-isolated-png-image_9173037.png</item>
+        <item>https://png.pngtree.com/png-clipart/20230927/original/pngtree-giraffe-animal-isolated-3d-rendering-png-image_13143650.png</item>
+        <item>https://png.pngtree.com/png-clipart/20210912/original/pngtree-spring-insect-ant-png-image_6729124.jpg</item>
+        <item>https://png.pngtree.com/png-clipart/20220125/original/pngtree-cow-eating-grass-png-image_7204971.png</item>
+        <item>https://png.pngtree.com/png-clipart/20211116/original/pngtree-ayam-jantan-menawan-png-image_6942325.png</item>
+        <item>https://png.pngtree.com/png-clipart/20220616/original/pngtree-bebek-kartun-png-image_8081603.png</item>
+    </string-array>
+
+    <string-array name="nama_gambar">
+        <item>Gajah</item>
+        <item>Jerapah</item>
+        <item>Semut</item>
+        <item>Sapi</item>
+        <item>Ayam</item>
+        <item>Bebek</item>
+    </string-array>
+</resources>
