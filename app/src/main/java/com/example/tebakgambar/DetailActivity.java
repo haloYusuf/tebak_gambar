@@ -42,9 +42,9 @@ public class DetailActivity extends AppCompatActivity {
         btn_cek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String data = et_tebak.getText().toString();
+                String data = et_tebak.getText().toString().toLowerCase();
                 Log.e("data", data);
-                if (gambar.getName().equals(data)){
+                if (gambar.getName().toLowerCase().equals(data)){
                     Toast.makeText(view.getContext(), "Anda Benar", Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(view.getContext(), "Anda Salah", Toast.LENGTH_SHORT).show();
